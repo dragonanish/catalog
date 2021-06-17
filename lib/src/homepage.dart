@@ -14,6 +14,7 @@ class Homepage extends StatelessWidget {
           child: Text("Welcome to the $day day Flutter $clas"),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
